@@ -5,6 +5,7 @@ public class Basketball extends Noticia implements CalculoNoticia, CalculoPuntos
     private String club;
 
     public Basketball(String competicion, String club) {
+        super();
         this.competicion = competicion;
         this.club = club;
     }

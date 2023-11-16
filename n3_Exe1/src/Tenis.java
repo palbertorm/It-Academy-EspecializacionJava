@@ -11,6 +11,7 @@ public class Tenis extends Noticia implements CalculoNoticia, CalculoPuntos {
     }
 
     public Tenis(String competicion, String tenista) {
+        super();
         this.competicion = competicion;
         this.tenista = tenista;
     }

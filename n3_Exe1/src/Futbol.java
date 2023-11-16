@@ -13,6 +13,7 @@ public class Futbol extends Noticia implements CalculoNoticia, CalculoPuntos{
     }
 
     public Futbol(String competicion, String club, String jugador) {
+        super();
     this.competicion = competicion;
     this.club = club;
     this.jugador = jugador;

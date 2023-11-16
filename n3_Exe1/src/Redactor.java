@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
 public class Redactor {
-    private String nombre;
+    static private String nombre;
     final private String dni;
 
-    final static float sueldo = 1.500F;
-    ArrayList<Noticia> noticias;
+    final private float sueldo = 1.500F;
+    public static ArrayList<Noticia> noticias;
 
     public Redactor(String nombre, String dni) {
         this.nombre = nombre;

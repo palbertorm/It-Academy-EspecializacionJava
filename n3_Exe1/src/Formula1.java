@@ -9,6 +9,7 @@ public class Formula1 extends Noticia{
     }
 
     public Formula1(String escuderia) {
+        super();
         this.escuderia = escuderia;
     }
 
