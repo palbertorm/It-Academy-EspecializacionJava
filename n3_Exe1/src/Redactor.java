@@ -32,4 +32,12 @@ public class Redactor {
     public void setNoticias(ArrayList<Noticia> noticias) {
         this.noticias = noticias;
     }
+
+    @Override
+    public String toString() {
+        return "Redactor{" +
+                "dni='" + dni + '\'' +
+                ", sueldo=" + sueldo +
+                '}';
+    }
 }

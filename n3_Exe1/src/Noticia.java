@@ -40,4 +40,13 @@ public class Noticia{
     public void setPrecio(int precio) {
         this.precio = precio;
     }
+
+    @Override
+    public String toString() {
+        return "Noticia{" +
+                "titular='" + titular + '\'' +
+                ", puntuacion=" + puntuacion +
+                ", precio=" + precio +
+                '}';
+    }
 }

@@ -13,10 +13,12 @@ public class Main {
     static String escuderia;
     static String equipo;
     static int noticia;
+    static String redactorNombre;
+    static String DNI;
     public static void main(String[] args) {
         int option;
-        String redactorNombre;
-        String DNI;
+
+
 
         do {
             showMenu();
@@ -88,6 +90,9 @@ public class Main {
                     response = eliminarNoticia(redactor, titular);
                     break;
                 case 5:
+                    System.out.println("Introduzir el DNI del redactor");
+                    DNI = input.next();
+                    visualizarNoticias(DNI);
                     break;
 
                 default:
@@ -295,6 +300,29 @@ public class Main {
                 }
 
                 }
+            }
+        }
+        return response;
+    }
+    public static String visualizarNoticias(String DNI){
+        int indice = -1;
+        boolean found = false;
+        boolean foundNoticia = false;
+        int size = redacion1.redactores.size();
+        for (int i = 0; i < size; i++) {
+            if (redacion1.redactores.get(i).getDni().equalsIgnoreCase(DNI)) {
+                found = true;
+                indice = i;
+            }
+            if (found){
+                for (Redactor redactor : redacion1.redactores               ) {
+
+                   response = " El redactor " + redactor.getNombre() + " tiene las notcias " + redactor.getNoticias().toString();
+                }
+                //for (int j = 0; j < Redactor.noticias.size(); j++) {
+                   //response = Redactor.noticias.get(j).toString();
+
+                //}
             }
         }
         return response;
