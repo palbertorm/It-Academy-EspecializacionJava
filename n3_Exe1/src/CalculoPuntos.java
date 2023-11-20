@@ -1,3 +1,3 @@
 public interface CalculoPuntos {
-    int calcularPuntuacion();
+    void calcularPuntuacion();
 }

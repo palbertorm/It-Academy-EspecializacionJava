@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Tenis extends Noticia implements CalculoNoticia, CalculoPuntos {
     private String competicion;
     private String tenista;
@@ -34,7 +32,7 @@ public class Tenis extends Noticia implements CalculoNoticia, CalculoPuntos {
     public void calcularNoticia() {
 
     }
-    public int calcularPuntuacion() {
+    public void calcularPuntuacion() {
         return 0;
     }
 

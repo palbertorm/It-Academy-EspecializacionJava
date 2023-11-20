@@ -327,4 +327,17 @@ public class Main {
         }
         return response;
     }
+    public static void calcularPuntuacionNoticia(String noticia){
+        int size = redacion1.redactores.size();
+        int puntos = 0;
+        for (int i = 0; i < size; i++) {
+            for (Redactor redactor : redacion1.redactores) {
+                if(noticia.equalsIgnoreCase("basketball")){
+                    redactor.getNoticias().get(i).setPuntuacion(4);
+
+                }
+
+            }
+        }
+    }
 }

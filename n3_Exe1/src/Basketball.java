@@ -1,8 +1,6 @@
-import java.util.ArrayList;
-
 public class Basketball extends Noticia implements CalculoNoticia, CalculoPuntos {
-    private String competicion;
-    private String club;
+    static  String competicion;
+    static  String club;
 
     public Basketball(String competicion, String club) {
         super();
@@ -36,14 +34,19 @@ public class Basketball extends Noticia implements CalculoNoticia, CalculoPuntos
     public void setClub(String club) {
         this.club = club;
     }
-    public  static int calcularPreuNoticia(int puntuacion, int precio) {
-        return puntuacion * precio;
-    }
     public void calcularNoticia() {
 
     }
-    public int calcularPuntuacion() {
-        return 0;
+    public void calcularPuntuacion() {
+        if (getCompeticion().equalsIgnoreCase("liga")){
+            setPuntuacion(+3);
+        }
+        if (getCompeticion().equalsIgnoreCase("acb")){
+            setPuntuacion(+1);
+        } else if (getClub().equalsIgnoreCase("barcelona") | getClub().equalsIgnoreCase("madrid")) {
+            setPuntuacion(+1);
+        }
+
     }
 
     @Override

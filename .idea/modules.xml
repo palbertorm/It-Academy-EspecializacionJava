@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/It-Academy-EspecializacionJava.iml" filepath="$PROJECT_DIR$/.idea/It-Academy-EspecializacionJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n1_Exe1/n1_Exe1.iml" filepath="$PROJECT_DIR$/n1_Exe1/n1_Exe1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n1_Exec2/n1_Exec2.iml" filepath="$PROJECT_DIR$/n1_Exec2/n1_Exec2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n2_Exe1/n2_Exe1.iml" filepath="$PROJECT_DIR$/n2_Exe1/n2_Exe1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n3_Exe1/n3_Exe1.iml" filepath="$PROJECT_DIR$/n3_Exe1/n3_Exe1.iml" />
+    </modules>
+  </component>
+</project>

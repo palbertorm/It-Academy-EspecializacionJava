@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Futbol extends Noticia implements CalculoNoticia, CalculoPuntos{
     private String competicion;
     private String club;
@@ -46,7 +44,7 @@ public class Futbol extends Noticia implements CalculoNoticia, CalculoPuntos{
     public void calcularNoticia() {
     int preu = getPrecio() * 6;
     }
-    public int calcularPuntuacion() {
+    public void calcularPuntuacion() {
         return 0;
     }
 
