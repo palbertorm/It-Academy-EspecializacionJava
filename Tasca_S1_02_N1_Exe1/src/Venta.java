@@ -36,6 +36,7 @@ public class Venta {
         if (this.products.isEmpty()){
             throw new VentaBuidaException("Para hacer una venta primero debes añadir productos");
         }
+        //recoge los productos y suma el precio
         for (Producto producto: products) {
             this.precioTotalVenta += producto.getPrecio();
         }
