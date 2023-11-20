@@ -10,7 +10,7 @@ public class Main {
         try {
             venta.calcularTotal();
         }catch (VentaBuidaException e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println("Error 1: " + e.getMessage());
         }
 
         Producto producto1 = new Producto("Coca Cola", 5.10);
