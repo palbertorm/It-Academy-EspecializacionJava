@@ -83,23 +83,20 @@ public class Entrada {
        char[] data = new char[0];
        boolean validacion = false;
         do{
-            try {
-
             System.out.println("esto es un char " + mensaje);
-            //String input = mensaje.substring(1);
             String input = entrada.nextLine().trim();
-            if (input.length() == 1) {
+            try  {
             data = input.toCharArray();
-            validacion = true;
 
+                if (data.length == 1) {
+                    validacion = true;
+                } else {
+                    throw new InputInvalidException(" Ingrese solo una letra");
+                }
             }
-            /*else {
-                System.err.println("Error: Ingresa solo una let");
+            catch (Exception e){
+                System.err.println("Error: " + e.getMessage());
 
-            }*/
-            }catch (Exception e){
-                //System.err.println("Error: Ingresa solo una let" +e.getMessage());
-                throw new InputInvalidException("rererere" +e.getMessage());
             }
         }while (!validacion);
         return data;
@@ -135,7 +132,7 @@ public class Entrada {
                 validacion = true;
                 System.out.println("esto es un false");
             }else {
-                System.err.println("debe empezar con S o N");
+                throw new InputInvalidException("debe empezar con S o N\"");
             }
 
             }catch ( Exception e){

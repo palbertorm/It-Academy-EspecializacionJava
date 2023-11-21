@@ -3,10 +3,10 @@ public class Main {
         String mensaje = "dime tu edad";
         String palabra = "dime una palabra";
         boolean valid = false;
-        /*byte edad = Entrada.leerByte(mensaje);
+        byte edad = Entrada.leerByte(mensaje);
         int edad1 = Entrada.leerInt(mensaje);
         float edad2 = Entrada.leerFloat(mensaje);
-        double edad3 = Entrada.leerDouble(mensaje);*/
+        double edad3 = Entrada.leerDouble(mensaje);
         /*try{
             Entrada.leerChar(palabra);
         }catch (Exception e){
