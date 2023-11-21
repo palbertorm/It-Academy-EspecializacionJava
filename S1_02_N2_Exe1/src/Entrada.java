@@ -4,50 +4,64 @@ public class Entrada {
    static Scanner entrada = new Scanner(System.in);
 
    public static byte leerByte(String mensaje) {
-       byte data = 0;
+       //byte data = 0;
        boolean validacion = false;
+        byte data = 0;
+       do {
 
            try
-               {
-                   System.out.println(mensaje);
-                   data = entrada.nextByte();
-                   validacion = true;
-               }
-           catch (InputMismatchException e){
-               System.err.println("InputMismatchException format" + e.getMessage());
+           {
+               System.out.println(mensaje);
+               data = entrada.nextByte();
+               entrada.nextLine();
+               validacion = true;
            }
+           catch (InputMismatchException e){
+               System.err.println("formato invalido, tira otra vez!");
+               entrada.nextLine();
+           }
+       }while (!validacion);
        return data;
    }
    public static int leerInt(String mensaje) {
        int data = 0;
        boolean validacion = false;
+       do {
            try
                {
-                   System.out.println(mensaje);
+                   System.out.println("edad int " + mensaje);
                    data = entrada.nextInt();
                    validacion = true;
                }
            catch (InputMismatchException e){
-               System.err.println("InputMismatchException format" + e.getMessage());
+               System.err.println("InputMismatchException format: el formato ha de ser un int");
+               entrada.nextLine();
            }
+
+       }while (!validacion);
        return data;
    }
    public static float leerFloat(String mensaje) {
        float data = 0;
        boolean validacion = false;
 
+       do {
+
        try {
-           System.out.println(mensaje);
+           System.out.println("esto es un float " +mensaje);
            data = entrada.nextFloat();
            validacion = true;
        }catch (InputMismatchException e) {
-           System.err.println("InputMismatchException format" + e.getMessage());
+           System.err.println("InputMismatchException format: el formato ha de ser un float");
+           entrada.nextLine();
        }
+       }while (!validacion);
        return data;
    }
    public static double leerDouble(String mensaje) {
        double data = 0.0;
        boolean validacion = false;
+       do {
 
        try {
            System.out.println(mensaje);
@@ -56,6 +70,8 @@ public class Entrada {
        }catch (InputMismatchException e) {
            System.err.println("InputMismatchException format" + e.getMessage());
        }
+       }while (!validacion);
+
        return data;
    }
 

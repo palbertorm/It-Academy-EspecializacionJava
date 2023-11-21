@@ -1,9 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        String mensaje = "Introduce tu edad";
-        System.out.println(" entra tu edad");
+        String mensaje = "dime tu edad";
         byte edad = Entrada.leerByte(mensaje);
-        //System.out.println(edad);
+        int edad1 = Entrada.leerInt(mensaje);
+        /*boolean valid = false;
+
+
+        do {
+            edad = Entrada.leerByte(mensaje);
+            valid=true;
+
+        }while (!valid);*/
+
     }
 }
 /*Crea una clase llamada "Entrada". Esta clase debe servir para controlar las distintas excepciones que pueden aparecer en Java a la hora de introducir datos por teclado utilizando la clase Scanner.
