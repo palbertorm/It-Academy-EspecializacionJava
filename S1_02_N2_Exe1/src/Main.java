@@ -1,16 +1,20 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         String mensaje = "dime tu edad";
-        byte edad = Entrada.leerByte(mensaje);
+        String palabra = "dime una palabra";
+        boolean valid = false;
+        /*byte edad = Entrada.leerByte(mensaje);
         int edad1 = Entrada.leerInt(mensaje);
-        /*boolean valid = false;
-
-
-        do {
-            edad = Entrada.leerByte(mensaje);
-            valid=true;
-
-        }while (!valid);*/
+        float edad2 = Entrada.leerFloat(mensaje);
+        double edad3 = Entrada.leerDouble(mensaje);*/
+        /*try{
+            Entrada.leerChar(palabra);
+        }catch (Exception e){
+            System.err.println("Error: Ingresa solo una letra" + e.getMessage());
+        }*/
+        Entrada.leerChar(palabra);
+        Entrada.leerString(palabra);
+        Entrada.lerSiNo(palabra);
 
     }
 }
