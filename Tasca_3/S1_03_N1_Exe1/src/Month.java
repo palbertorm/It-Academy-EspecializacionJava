@@ -23,4 +23,11 @@ public class Month  implements java.lang.Comparable<Month> {
         Month month = (Month) obj;
         return Objects.equals(name, month.name);
     }
+
+    @Override
+    public String toString() {
+        return "Month{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
