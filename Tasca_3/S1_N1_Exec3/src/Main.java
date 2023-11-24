@@ -14,27 +14,27 @@ public class Main {
         Map<String, String> map = new HashMap<String, String>();
         Scanner myReader = null;
         try {
-            BufferedReader reader = new BufferedReader(new FileReader( countries));
+            //BufferedReader reader = new BufferedReader(new FileReader( countries));
             myReader = new Scanner(countries);
-//            while (myReader.hasNextLine()) {
-//                String data = myReader.nextLine();
-//                for (String linha: data.split("\\t")) {
-//                    String line = linha.trim();
-//                    line.replace(" ", "");
-//                System.out.println(line);
-//
-//                }
-//                //map.put(line[0], line[0]);
-//            }
-           while (reader.ready()) {
-               String data = reader.readLine();
-               System.out.println(data);
-               data.getBytes(StandardCharsets.UTF_8);
-               map.put(data, String.valueOf(data.length()));
+            while (myReader.hasNextLine()) {
+                String[] data = myReader.nextLine().split("\\s");
+                String key = data[0].trim();
+                String value = data[1];
+                map.put(key, value);
+                System.out.println(data.length);
+
+                }
+
+
+//           while (reader.ready()) {
+//               String data = reader.readLine();
+//               System.out.println(data);
+//               data.getBytes(StandardCharsets.UTF_8);
+//               map.put(data, String.valueOf(data.length()));
 //                String data = myReader.nextLine();
 //                map.put(data , data.substring(0, data.length()));
-           }
-            System.out.println("mapeio" + map);
+//           }
+
         } catch (IOException e) {
             System.out.println("Error 35: " + e.getMessage());
             e.printStackTrace();
@@ -42,5 +42,6 @@ public class Main {
         finally {
             myReader.close();
         }
+        System.out.println("mapeio" + map.get("Spain"));
     }
 }
