@@ -1,4 +1,5 @@
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -15,9 +16,20 @@ public class Main {
         try {
             BufferedReader reader = new BufferedReader(new FileReader( countries));
             myReader = new Scanner(countries);
+//            while (myReader.hasNextLine()) {
+//                String data = myReader.nextLine();
+//                for (String linha: data.split("\\t")) {
+//                    String line = linha.trim();
+//                    line.replace(" ", "");
+//                System.out.println(line);
+//
+//                }
+//                //map.put(line[0], line[0]);
+//            }
            while (reader.ready()) {
                String data = reader.readLine();
                System.out.println(data);
+               data.getBytes(StandardCharsets.UTF_8);
                map.put(data, String.valueOf(data.length()));
 //                String data = myReader.nextLine();
 //                map.put(data , data.substring(0, data.length()));
