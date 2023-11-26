@@ -19,9 +19,7 @@ public class Main {
         System.out.println("Dime tu nombre");
         nombreUser = input.next();
         System.out.println("Hola  "+ nombreUser);
-        System.out.println("introduce el nombre de la capital " + lerArquivo());
-        capitalUser = input.next().toLowerCase();
-        addCapital(capitalUser);
+        addCapital(nombreUser);
     }
     public static String lerArquivo(){
         File countries = new File("../countries.txt");
@@ -29,11 +27,13 @@ public class Main {
         try {
             //BufferedReader reader = new BufferedReader(new FileReader( countries));
             myReader = new Scanner(countries);
-        String line = myReader.nextLine().toLowerCase();
+        String line = myReader.nextLine().toLowerCase().replace("_", " ");
             while (myReader.hasNextLine()) {
+
                 String[] data = myReader.nextLine().toLowerCase().split("\\s");
                 String key = data[0].trim();
                 String value = data[1];
+                value.replace("_", " ");
                 map.put(key, value);
             }
         } catch (IOException e) {
@@ -48,31 +48,55 @@ public class Main {
 
         return (String) key;
     }
-    public static void addCapital(String nameCapital) {
+    public static void addCapital(String name) {
         HashSet<String> capitals = new HashSet<String>();
-
-        for (int i = 0; i < 3; i++) {
-            System.out.println(" de " + lerArquivo());
+        HashMap<String, Integer> clasificaciones = new HashMap<String, Integer>();
+        BufferedReader reader = null;
+        BufferedWriter writer = null;
+        String nameCapital ="";
+        int puntos = 0;
+        for (int i = 0; i < 4; i++) {
+            System.out.println(" introduce el nombre de la capital de " + lerArquivo());
             nameCapital = input.next().toLowerCase();
             if (map.containsValue(nameCapital)) {
 
             capitals.add(nameCapital);
             };
-            System.out.println(capitals.size());
+            puntos = capitals.size();
         }
-        BufferedWriter writer = null;
+        clasificaciones.put(name,puntos);
+        System.out.println("ENHORABUENA! has tenido " + puntos+ " acertos");
         try {
             writer = new BufferedWriter(new FileWriter("../classificacion.txt"));
-            for (String name : capitals){
-                writer.write("\n " + name);
+            for (Map.Entry<String, Integer> line : clasificaciones.entrySet()) {
+//                line.toString().split(",");
+                writer.write(line.getKey() + ":" + line.getValue());
+                writer.newLine();
 
             }
-            writer.close();
+            writer.flush();
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }finally {
+            try {
+                writer.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
-
-
+//        try {
+//            reader = new BufferedReader(new FileReader("../classificacion.txt"));
+//            String line;
+//            int countLines = 0;
+//            while ((line = reader.readLine()) != null){
+//
+//                countLines++;
+//            }
+//                System.out.println(countLines);
+//        } catch (IOException e) {
+//            System.out.println("Error 35: " + e.getMessage());
+//            e.printStackTrace();;
+//        }
     }
 }
