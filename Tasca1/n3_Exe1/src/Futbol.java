@@ -44,9 +44,9 @@ public class Futbol extends Noticia implements CalculoNoticia, CalculoPuntos{
     public void calcularNoticia() {
     int preu = getPrecio() * 6;
     }
-    public void calcularPuntuacion() {
-        return 0;
-    }
+//    public void calcularPuntuacion() {
+//        return 0;
+//    }
 
     @Override
     public String toString() {
