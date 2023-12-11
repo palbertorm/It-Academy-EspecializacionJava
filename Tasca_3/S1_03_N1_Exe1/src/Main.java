@@ -30,7 +30,7 @@ public class Main {
         Collections.addAll(monthList, month1, month2, month3, month4, month5, month6, month7, month8, month9, month10, month11);
 
         // Agregar el objeto Month correspondiente a diciembre en la posición 12
-        monthList.add(11, new Month("agosto"));
+        monthList.add(8, new Month("agosto"));
         // Ordenar la lista de meses
         Collections.sort(monthList);
         System.out.println(" Meses ordenados sin HashSet");
