@@ -1,14 +1,14 @@
 package org.example;
 
 public abstract class Trabajador {
-    String nombre;
-    String apellido;
-    double precioHora;
+    private String nombre;
+    private String apellido;
+    private static final double PRECIO_HORA = 10;
 
-    public Trabajador(String nombre, String apellido, double precioHora) {
+    public Trabajador(String nombre, String apellido) {
         this.nombre = nombre;
         this.apellido = apellido;
-        this.precioHora = precioHora;
+
     }
 
     public String getNombre() {
@@ -28,12 +28,10 @@ public abstract class Trabajador {
     }
 
     public double getPrecioHora() {
-        return precioHora;
+        return PRECIO_HORA;
     }
 
-    public void setPrecioHora(double precioHora) {
-        this.precioHora = precioHora;
-    }
+
     public abstract double calcularSou(double horasTrabajada);
     @Deprecated
     public abstract int souHorasBaja(double horasTrabajada, double horasBaja);
