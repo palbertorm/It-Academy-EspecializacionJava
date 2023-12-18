@@ -1,37 +1,35 @@
 package org.example;
 
 public class NoGenericMethods<T> {
-    private T a;
-    private  T b;
-    private  T c;
+    Persona p1,p2,p3;
 
-    public NoGenericMethods(T a, T b, T c) {
-        this.a = a;
-        this.b = b;
-        this.c = c;
+    public NoGenericMethods(Persona p1, Persona p2, Persona p3) {
+        this.p1 = p1;
+        this.p2 = p2;
+        this.p3 = p3;
     }
 
-    public T getA() {
-        return a;
+    public Persona getP1() {
+        return p1;
     }
 
-    public void setA(T a) {
-        this.a = a;
+    public void setP1(Persona p1) {
+        this.p1 = p1;
     }
 
-    public T getB() {
-        return b;
+    public Persona getP2() {
+        return p2;
     }
 
-    public void setB(T b) {
-        this.b = b;
+    public void setP2(Persona p2) {
+        this.p2 = p2;
     }
 
-    public T getC() {
-        return c;
+    public Persona getP3() {
+        return p3;
     }
 
-    public void setC(T c) {
-        this.c = c;
+    public void setP3(Persona p3) {
+        this.p3 = p3;
     }
 }
