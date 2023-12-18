@@ -14,11 +14,7 @@ public class Main {
         cadenas.add("Sevilla");
         cadenas.add("ocata");
         cadenas.add("octo");
-        listaCadenas.separarCadenas(cadenas);
-//        listaCadenas.forEach((cadena)->{
-//            if (cadena.contains("o")||cadena.contains("O")){
-//                System.out.println(cadena);
-//            }
-//        });
+        ListaCadenas.separarCadenas(cadenas);
+
     }
 }
