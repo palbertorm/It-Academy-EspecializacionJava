@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Month  implements java.lang.Comparable<Month> {
+public class Month {
     private String name;
 
 

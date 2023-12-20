@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6986f4eb-8349-4418-800f-caf992937f64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tasca_8/S1_08_N1_Exe1/src/main/java/org/example/listaCadenas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tasca_8/S1_08_N1_Exe2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tasca_8/S1_08_N1_Exe2/src/main/java/org/example/listaCadenas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca_3/classificacion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca_3/classificacion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca_7/S1_07_N1_Exe2/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca_7/S1_07_N1_Exe2/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tasca_8/S1_08_N1_Exe1/src/main/java/org/example/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="6986f4eb-8349-4418-800f-caf992937f64" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -30,14 +21,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pauloalberto/Documents/It-Academy-EspecializacionJava/Tasca_4&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/pauloalberto/Documents/It-Academy-EspecializacionJava/Sprint_1_Java_SpringFramework/Tasca_4"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
