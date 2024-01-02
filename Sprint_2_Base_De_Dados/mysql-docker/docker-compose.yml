@@ -1,0 +1,17 @@
+services:
+  mysql:
+    container_name: mysql
+    image: mysql
+    restart: always
+    env_file:
+      - local.env
+    ports:
+      - '3306:3306'
+    volumes:
+      - ./data.sql:/docker-entrypoint-initdb.d/data.sql
+ # cloudbeaver:
+  #  container_name: cloudbeaver
+   # image: dbeaver/cloudbeaver:latest
+    #restart: unless-stopped
+    #ports:
+    #  - '8080:8978'
