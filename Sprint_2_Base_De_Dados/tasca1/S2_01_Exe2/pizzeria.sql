@@ -95,7 +95,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `pizzeria`.`Pedidos` (
   `idPedidos` INT NOT NULL AUTO_INCREMENT,
-  `Fecha` DATETIME GENERATED ALWAYS AS (),
+  `Fecha` DATETIME ,
   `Delivery` TINYINT NULL,
   `Cantidad` INT NULL,
   `PrecioTotal` INT NULL,
