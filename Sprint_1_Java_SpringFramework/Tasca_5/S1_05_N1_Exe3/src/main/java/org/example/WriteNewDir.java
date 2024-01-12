@@ -10,12 +10,6 @@ import java.text.SimpleDateFormat;
 
 public class WriteNewDir {
     public void ordenarDirectorio(String directorioName) {
-        FileFilter filtro = new FileFilter() {
-            @Override
-            public boolean accept(File pathname) {
-                return pathname.isFile();
-            }
-        };
         File directorio = new File(directorioName);
         File[] archivos = directorio.listFiles();
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");

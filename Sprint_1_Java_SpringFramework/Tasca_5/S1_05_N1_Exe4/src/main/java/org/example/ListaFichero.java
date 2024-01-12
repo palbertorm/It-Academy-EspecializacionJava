@@ -23,33 +23,6 @@ public class ListaFichero {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-//        Reader reader = null;
-//        try {
-//            reader = new FileReader(file);
-//        } catch (FileNotFoundException e) {
-//            throw new RuntimeException(" primero catch", e);
-//        }
-//        ReaderInputStream inputStream = new ReaderInputStream(reader);
-//
-//        int b;
-//        while (true) {
-//            /*try {
-//                if ((b = inputStream.read()) == -1) {
-//                    System.out.println((char) b);
-//                }
-//
-//            } catch (IOException e) {
-//                throw new RuntimeException(e);
-//            }finally {
-//                try {
-//                    inputStream.close();
-//                } catch (IOException e) {
-//                    throw new RuntimeException(e);
-//                }
-//
-//            }*/
-//            //System.out.print((char) b);
-//        }
 
     }
 
