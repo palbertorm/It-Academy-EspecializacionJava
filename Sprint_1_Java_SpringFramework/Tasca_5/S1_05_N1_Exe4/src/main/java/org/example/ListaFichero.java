@@ -10,8 +10,8 @@ public class ListaFichero {
     public void LerFichero (String pathName){
 //        CharsetEncoder encoder = StandardCharsets.UTF_8.newEncoder();
         File file = new File(pathName);
-        try {
-            BufferedReader reader = new BufferedReader(new FileReader(file));
+        try (BufferedReader reader = new BufferedReader(new FileReader(file));){
+
             String line;
             while((line = reader.readLine())!=null){
                 System.out.println(line);
