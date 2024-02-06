@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e34b14a6-954a-4570-b6f1-4c6ad70236d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/src/main/java/org/example/Campesino.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/src/main/java/org/example/GestorNPC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/src/main/java/org/example/Impuesto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/src/main/java/org/example/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/src/main/java/org/example/Jugador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/src/main/java/org/example/Ladron.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/src/main/java/org/example/Mercader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/src/main/java/org/example/NPC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint_3_Patterns/TASCA_2/PRUEBA_NIVEL_06_02/src/main/java/org/example/NPCTypes.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2blVtYjb0MB0PZqIEriYbUzcpxR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pauloalberto/Documents/It-Academy-EspecializacionJava/test_30_01&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e34b14a6-954a-4570-b6f1-4c6ad70236d0" name="Changes" comment="" />
+      <created>1706789867485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706789867485</updated>
+    </task>
+    <servers />
+  </component>
+</project>

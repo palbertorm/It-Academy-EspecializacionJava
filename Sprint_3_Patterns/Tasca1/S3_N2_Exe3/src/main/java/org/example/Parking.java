@@ -9,11 +9,11 @@ public class Parking {
     public void takeOrder(Order order) {
         parkingList.add(order);
     }
-    public void  putOrder(Order order){
+    public void  putOrder(){
 //        for (Order place: parkingList
 //             ) {
 //            place.execute();
 //        }
-        order.execute();
+        this.parkingList.forEach(Order::execute);
     }
 }

@@ -2,12 +2,12 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car();
+        Vehiculo car = new Vehiculo();
 
-        CarAccelerate carAccelerate = new CarAccelerate(car);
+        VehiculoAccelerate carAccelerate = new VehiculoAccelerate(car);
 
         Parking parking = new Parking();
         parking.takeOrder(carAccelerate);
-        parking.putOrder(carAccelerate);
+        parking.putOrder();
     }
 }

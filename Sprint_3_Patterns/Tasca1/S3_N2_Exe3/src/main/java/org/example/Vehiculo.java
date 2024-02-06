@@ -1,6 +1,7 @@
 package org.example;
 
-public class Car {
+public class Vehiculo {
+
     private String name = "Ibiza";
 
     public void accelerate() {
@@ -13,4 +14,6 @@ public class Car {
     public void pluck() {
         System.out.println(" this " + name + "plucks");
     }
+
+    //TODO: CREATE CHILDREN CLASS (CAR, BUS AND ETC)
 }
