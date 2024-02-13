@@ -35,23 +35,16 @@ public class GestorNPC {
        itemList.add(item1);
     }
     public void addItem(){
-        for(NPC npc : npcList){
-            Item item1 = new Item("arma_roja", 30, "arma");
-            if ( npc instanceof Campesino){
-                npc.item.addItem(item1);
-            }
-            if ( npc instanceof Ladron){
-                npc.item.addItem(item1);
+
+        int indice = -1;
+        boolean found = false;
+        for (int i = 0; i <npcList.size() && !found; i++) {
+            if (npcList.get(i) instanceof Campesino){
+                Item item2 = new Item("Flecha", 30, "arma");
+                ((Campesino) npcList.get(i)).setItemCampesino(item2);
+                itemList.add(item2);
             }
         }
-//        int indice = -1;
-//        boolean found = false;
-//        for (int i = 0; i <npcList.size() && !found; i++) {
-//            if (npcList.get(i) == Campesino){
-//
-//                npcList.get(i).item.addItem(item);
-//            }
-//        }
     }
 
 }

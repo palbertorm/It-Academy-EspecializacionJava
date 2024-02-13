@@ -6,7 +6,7 @@ import java.util.List;
 public abstract class NPC {
     private String nombre;
     private String ciudad;
-    Item item;
+    public List<Item> itemList;
 
     public NPC(String nombre, String ciudad) {
         this.nombre = nombre;
@@ -29,9 +29,10 @@ public abstract class NPC {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+    public void addItem(Item item) {
+        itemList.add(item);
+    }
 
-//    public void addItem(Item item) {
-//        item.add(item);
-//    }
+
 }
 

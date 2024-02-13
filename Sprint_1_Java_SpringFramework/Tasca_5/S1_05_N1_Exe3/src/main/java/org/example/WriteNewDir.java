@@ -22,7 +22,6 @@ public class WriteNewDir {
                     File file = new File("../my-file.txt");
                         try (FileWriterWithEncoding writer = new FileWriterWithEncoding(file, "UTF-8", true)) {// append true avoid
                             writer.write(archivo.getName() + " " + dirOrCarpeta + sdf.format(archivo.lastModified()));
-                            writer.close();
                         }
                     if (archivo.isDirectory()) {
                         ordenarDirectorio(archivo.getAbsolutePath());

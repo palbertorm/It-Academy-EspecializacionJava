@@ -1,5 +1,5 @@
 package org.example;
 
 public interface Impuesto {
-    void calcularImpuesto();
+    void calcularImpuesto(int tasaImpuesto);
 }
