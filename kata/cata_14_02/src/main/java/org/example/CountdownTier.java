@@ -1,2 +1,4 @@
-package org.example;public class CountdownTier {
+package org.example;
+
+public class CountdownTier {
 }

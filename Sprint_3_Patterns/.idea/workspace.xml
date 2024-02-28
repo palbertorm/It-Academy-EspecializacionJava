@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7bce8bf-f004-45ea-a23f-eef28db2dab3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../kata/cata_14_02/src/main/java/org/example/CountdownTier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/Exceptions/outOfItemsExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/NPCTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/NPCs/Campesino.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/NPCs/GestorNPC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/NPCs/Interfaces/Deterioro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/NPCs/Interfaces/Impuesto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/NPCs/Jugador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/NPCs/Ladron.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/NPCs/Mercader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA_NIVEL_06_02/src/main/java/org/example/NPCs/NPC.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2cMGctTKJFkdUqWRrGGEZmsrBoC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/pauloalberto/Documents/It-Academy-EspecializacionJava/Sprint_3_Patterns"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7bce8bf-f004-45ea-a23f-eef28db2dab3" name="Changes" comment="" />
+      <created>1707914116794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707914116794</updated>
+    </task>
+    <servers />
+  </component>
+</project>
