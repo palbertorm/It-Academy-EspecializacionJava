@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33054bd4-4cad-4d4d-854e-88666f597149" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Tasca_2/S04T02N01PauloAlberto/src/main/java/cat/itacademy/barcelonactiva/cognoms/nom/s04/t02/n01/S04T02N01PauloAlberto/domain/Fruita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/.idea/NIVEL1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/S04T01N01AlbertoMoura/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/S04T01N01AlbertoMoura/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/S04T01N01AlbertoMoura/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/S04T01N01AlbertoMoura/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/S04T01N01AlbertoMoura/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/S04T01N01AlbertoMoura/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/S04T01N01AlbertoMoura/src/main/java/cat/itacademy/barcelonactiva/cognoms/nom/s04/t01/n01/S04T01N01AlbertoMoura/Controller/HelloWorldController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/S04T01N01AlbertoMoura/src/main/java/cat/itacademy/barcelonactiva/cognoms/nom/s04/t01/n01/S04T01N01AlbertoMoura/S04T01N01AlbertoMouraApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/S04T01N01AlbertoMoura/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL1/S04T01N01AlbertoMoura/src/test/java/cat/itacademy/barcelonactiva/cognoms/nom/s04/t01/n01/S04T01N01AlbertoMoura/S04T01N01AlbertoMouraApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/.idea/NIVEL2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/S04T01N02AlbertoMoura/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/S04T01N02AlbertoMoura/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/S04T01N02AlbertoMoura/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/S04T01N02AlbertoMoura/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/S04T01N02AlbertoMoura/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/S04T01N02AlbertoMoura/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/S04T01N02AlbertoMoura/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/S04T01N02AlbertoMoura/src/main/java/cat/itacademy/barcelonactiva/cognoms/nom/s04/t01/n02/S04T01N02AlbertoMoura/Controller/HelloWorldController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/S04T01N02AlbertoMoura/src/main/java/cat/itacademy/barcelonactiva/cognoms/nom/s04/t01/n02/S04T01N02AlbertoMoura/S04T01N02AlbertoMouraApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/S04T01N02AlbertoMoura/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL2/S04T01N02AlbertoMoura/src/test/java/cat/itacademy/barcelonactiva/cognoms/nom/s04/t01/n02/S04T01N02AlbertoMoura/S04T01N02AlbertoMouraApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL3/Gradle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL3/Gradle_RequestParams.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL3/MAVEN_PathVariable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tasca1/NIVEL3/MAVEN_RequestParam.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2czZdf80queGQQkIEgrIIJDaHjy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pauloalberto/Documents/It-Academy-EspecializacionJava/Sprint_4_SpringFrameWork/NIVEL1/S04T01N01AlbertoMoura&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33054bd4-4cad-4d4d-854e-88666f597149" name="Changes" comment="" />
+      <created>1709116456862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709116456862</updated>
+    </task>
+    <servers />
+  </component>
+</project>
