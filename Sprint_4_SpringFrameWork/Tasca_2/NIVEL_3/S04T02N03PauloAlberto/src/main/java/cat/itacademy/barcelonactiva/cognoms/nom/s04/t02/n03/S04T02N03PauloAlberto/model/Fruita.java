@@ -1,17 +1,15 @@
 package cat.itacademy.barcelonactiva.cognoms.nom.s04.t02.n03.S04T02N03PauloAlberto.model;
 
 import jakarta.persistence.Id;
-import lombok.Data;
-import lombok.Generated;
-import lombok.Getter;
+import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-@Document(collation = "fruitas")
 @Data
-
+@NoArgsConstructor
+@AllArgsConstructor
+@Document(collection ="fruitas")
 public class Fruita {
     @Id
-    private String id;
+    private int id;
     private String name;
     private String weight;
 
@@ -20,11 +18,11 @@ public class Fruita {
         this.weight = weight;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

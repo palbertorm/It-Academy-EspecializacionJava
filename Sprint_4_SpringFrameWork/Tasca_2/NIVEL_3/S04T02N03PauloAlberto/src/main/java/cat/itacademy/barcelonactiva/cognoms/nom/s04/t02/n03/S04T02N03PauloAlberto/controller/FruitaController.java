@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin("http://localhost:9001")
+//@CrossOrigin("http://localhost:9001")
 @RestController
 public class FruitaController {
     @Autowired
@@ -34,7 +34,7 @@ public class FruitaController {
     }
 
     @GetMapping("/fruitas/getOne/{id}")
-    public ResponseEntity<Fruita> getFruitaById(@PathVariable("id") String id) {
+    public ResponseEntity<Fruita> getFruitaById(@PathVariable("id") int id) {
 
         Optional<Fruita> fruitaData = fruitaRepository.findById(id);
         if (fruitaData.isPresent()) {
@@ -56,7 +56,7 @@ public class FruitaController {
     }
 
     @PutMapping("/tutorials/update/{id}")
-    public ResponseEntity<Fruita> updateFruita(@PathVariable("id") String id, @RequestBody Fruita fruita) {
+    public ResponseEntity<Fruita> updateFruita(@PathVariable("id") int id, @RequestBody Fruita fruita) {
         Optional<Fruita> fruitaData = fruitaRepository.findById(id);
 
         if (fruitaData.isPresent()) {
@@ -69,7 +69,7 @@ public class FruitaController {
     }
 
     @DeleteMapping("/fruitas/delete/{id}")
-    public ResponseEntity<HttpStatus> deleteFruita(@PathVariable("id") String id) {
+    public ResponseEntity<HttpStatus> deleteFruita(@PathVariable("id") int id) {
         try {
             fruitaRepository.deleteById(id);
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);

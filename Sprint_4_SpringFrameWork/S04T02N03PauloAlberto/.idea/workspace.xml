@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbd75da6-da0a-4f5a-821a-297350d31615" name="Changes" comment="nvl 3">
+      <change beforePath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/collection-4--1185809530546322806.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/collection-4--1185809530546322806.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/diagnostic.data/metrics.2024-03-04T13-45-20Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/diagnostic.data/metrics.2024-03-04T13-45-20Z-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/diagnostic.data/metrics.interim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/index-5--1185809530546322806.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/index-5--1185809530546322806.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/index-6--1185809530546322806.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/index-6--1185809530546322806.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/journal/WiredTigerLog.0000000002" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/journal/WiredTigerLog.0000000002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/mongod.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sprint_2_Base_De_Dados/tasca3/mongoDb/mongo_data/sizeStorer.wt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2dDiy8RMScQyRNJOnIOjM1pZLPd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/pauloalberto/Documents/It-Academy-EspecializacionJava/Sprint_4_SpringFrameWork/S04T02N03PauloAlberto"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbd75da6-da0a-4f5a-821a-297350d31615" name="Changes" comment="" />
+      <created>1709549302117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709549302117</updated>
+    </task>
+    <task id="LOCAL-00001" summary="nvl 3">
+      <option name="closed" value="true" />
+      <created>1709556781958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709556781958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nvl 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="nvl 3" />
+  </component>
+</project>
