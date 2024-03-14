@@ -1,0 +1,14 @@
+services:
+  mysql:
+    container_name: 'mysql'
+    image: 'mysql'
+    environment:
+      - 'MYSQL_DATABASE=sucursal'
+      - 'MYSQL_ROOT_PASSWORD=itacademy'
+      - 'MYSQL_USER:paulo'
+      - 'MYSQL_PASSWORD:itacademy'
+
+    volumes:
+      - './data.sql:/docker-entrypoint-initdb.d/data.sql'
+    ports:
+      - '3306:3306'
