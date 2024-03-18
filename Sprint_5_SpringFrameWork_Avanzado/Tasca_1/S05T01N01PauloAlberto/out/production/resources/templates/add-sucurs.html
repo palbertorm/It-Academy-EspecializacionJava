@@ -1,0 +1,9 @@
+<form th:action="@{add}" th:object="${create}" method="POST"
+
+      xmlns:th="http://www.thymeleaf.org">
+    <label for="name">Name</label>
+    <input type="text" th:field="*{nameSucursal}" id="name" placeholder="Name">
+    <label for="country">Country</label>
+    <input type="text" th:field="*{countrySucursal}" id="country" placeholder="Country">
+    <input type="submit" value="Add Sucursal">
+</form>

@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class SucursalService {
@@ -29,8 +30,9 @@ public class SucursalService {
 //            return sucursalRepository.findCountryByName(name);
 //        }
 //    }
-    public Sucursal addSucursal(Sucursal sucursal) {
-        return sucursalRepository.save(sucursal);
+    public SucursalDTO addSucursal(Sucursal sucursal) {
+        sucursalRepository.save(sucursal);
+        return mapper.toDto(sucursal);
     }
     public SucursalDTO updateSucursal (Sucursal sucursal, int id){
         Optional<Sucursal> sucursalData = sucursalRepository.findById(id);
@@ -63,7 +65,8 @@ public class SucursalService {
         }
         return sucursalOptional.get();
     }
-    public List<Sucursal> getAllSucursals(){
-        return sucursalRepository.findAll();
+    public List<SucursalDTO> getAllSucursals(){
+       List<Sucursal> sucursal = sucursalRepository.findAll();
+       return sucursal.stream().map(mapper::toDto).collect(Collectors.toList());
     }
 }

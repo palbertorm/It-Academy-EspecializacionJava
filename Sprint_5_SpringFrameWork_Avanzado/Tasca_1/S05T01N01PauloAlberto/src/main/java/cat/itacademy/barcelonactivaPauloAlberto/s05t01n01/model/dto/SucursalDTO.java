@@ -14,6 +14,8 @@ import java.util.List;
 public class SucursalDTO {
     private static final List<String> countries = Arrays.asList("Austria", "Belgium", "Bulgaria", "Croatia", "Republic of Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Germany", "Greece", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Poland", "Portugal", "Romania", "Slovakia", "Slovenia", "Spain", "Sweden");
     @NonNull
+    private int id;
+    @NonNull
     private String name;
     @NonNull
     private String country;

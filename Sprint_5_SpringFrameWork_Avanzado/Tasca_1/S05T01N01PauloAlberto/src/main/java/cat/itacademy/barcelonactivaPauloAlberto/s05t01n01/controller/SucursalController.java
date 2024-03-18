@@ -7,65 +7,60 @@ import cat.itacademy.barcelonactivaPauloAlberto.s05t01n01.model.service.Sucursal
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-@CrossOrigin(origins = "http://localhost:9000")
-@RestController
-@RequestMapping("/sucursal")
+//@CrossOrigin(origins = "http://localhost:9000")
+@Controller
+@RequestMapping("sucursal/")
 public class SucursalController {
     @Autowired
     private SucursalService sucursalService;
     @Autowired
     private Mapper mapper;
-    @GetMapping("/signup")
-    public String showSignUpForm(SucursalDTO sucursalDTO) {
-        return "add-user";
+    @GetMapping("/create")
+    public String showSignUpForm(Model model) {
+        Sucursal sucursal = new Sucursal();
+        model.addAttribute("create", sucursal);
+        return "add-sucurs";
     }
 
     @PostMapping("/add")
-    public ResponseEntity<SucursalDTO> createSucursal(@RequestBody Sucursal sucursal){
-        try{
-            SucursalDTO _sucursaDTO = mapper.toDto(sucursalService.addSucursal(sucursal));
-            return new ResponseEntity<>(_sucursaDTO, HttpStatus.CREATED);
-        }catch (Exception e){
-            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+    public String createSucursal(@ModelAttribute("create") Sucursal sucursal){
+        sucursalService.addSucursal(sucursal);
+        return "redirect:index";
     }
-    @GetMapping("/getAll")
-    public List<SucursalDTO> getAllSucursal() {
-        return sucursalService.getAllSucursals()
-                .stream()
-                .map(mapper::toDto)
-                .collect(Collectors.toList());
+    @GetMapping("/index")
+    public String showSucursal(Model model){
+        model.addAttribute("sucurs", sucursalService.getAllSucursals());
+        return "index";
+    }
+    @GetMapping("/edit/{id}")
+    public String editByid(@PathVariable int id, Model model) {
+        model.addAttribute("sucur",  sucursalService.getSucursalById(id));
+        return "update-sucurs";
     }
 
     @GetMapping("/getById/{id}")
-    public SucursalDTO getById(@PathVariable int id) {
-        return mapper.toDto(sucursalService.getSucursalById(id));
+    public String getById(@PathVariable int id, Model model) {
+       model.addAttribute("sucurs", mapper.toDto(sucursalService.getSucursalById(id)));
+        return "index";
+    }
 
-    }
-    @PutMapping("/update/{id}")
-    public ResponseEntity<SucursalDTO> updateSucursal(@PathVariable int id, @RequestBody Sucursal sucursal) {
-        try {
-            SucursalDTO updatedSucursalDTO = sucursalService.updateSucursal(sucursal, id);
-            return ResponseEntity.ok(updatedSucursalDTO);
-        } catch (Exception e) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-//            return ResponseEntity.notFound().build();
-        }
-    }
+@PostMapping("edit/update/{id}")
+public String updateSucursal(@PathVariable int id, @ModelAttribute Sucursal sucursal) {
+    SucursalDTO updatedSucursalDTO = sucursalService.updateSucursal(sucursal, id);
+    return "redirect:/sucursal/index";
+}
+
     @GetMapping("/delete/{id}")
-    public ResponseEntity<HttpStatus> deleteFruita(@PathVariable int id) {
-
-        try {
-            sucursalService.deleteSucursal(id);
-            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-        } catch (Exception e) {
-            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+    public String deleteFruita(@PathVariable int id) {
+        sucursalService.deleteSucursal(id);
+        return "redirect:/sucursal/index";
     }
 }

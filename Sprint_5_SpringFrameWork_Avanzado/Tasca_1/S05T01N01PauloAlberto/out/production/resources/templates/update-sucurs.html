@@ -1,0 +1,14 @@
+<form
+      th:action="@{update/{id}(id=${sucur.id})}"
+      th:object="${sucur}"
+      method="post"
+      enctype="multipart/form-data"
+      xmlns:th="http://www.thymeleaf.org">
+    <label for="name">Name</label>
+    <input type="text" th:field="*{nameSucursal}" id="name" placeholder="Name">
+
+    <label for="country">Email</label>
+    <input type="text" th:field="*{countrySucursal}" id="country" placeholder="Email">
+
+    <input type="submit" value="Update Sucursal">
+</form>
