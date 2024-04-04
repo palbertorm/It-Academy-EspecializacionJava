@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="">
+<head>
+    <meta charset="UTF-8">
+    <title>Sucursal Management</title>
+    <th:block th:include="'/fragments/header'"></th:block>
+</head>
+<body>
+
+<h1>Sucursal Management</h1>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Country</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="sucursal : ${sucursals}">
+        <td th:text="${sucursal.id}"></td>
+        <td th:text="${sucursal.nameSucursal}"></td>
+        <td th:text="${sucursal.countrySucursal}"></td>
+        <td>
+            <a th:href="@{/sucursal/edit/{id} (id=${sucursal.id})}">Edit</a> |
+            <a th:href="@{/sucursal/delete/{id} (id=${sucursal.id})}">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<a th:href="@{/sucursal/create}">Create New Sucursal</a>
+
+<th:block th:include="'/fragments/footer'"></th:block>
+
+</body>
+</html>

@@ -19,7 +19,7 @@ public class FlowerDTO {
     @NonNull
     private String countryFlower;
     private String typeFlower;
-    public boolean isFlowerDTO(){
+    public boolean isFlowerDTOfromUE(){
         return countries.contains(this.countryFlower);
     }
 }

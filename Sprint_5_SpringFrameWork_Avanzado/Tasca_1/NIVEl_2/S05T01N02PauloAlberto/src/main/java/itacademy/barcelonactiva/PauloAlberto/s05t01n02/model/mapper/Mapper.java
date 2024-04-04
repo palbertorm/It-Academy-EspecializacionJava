@@ -13,7 +13,7 @@ public class Mapper {
         FlowerDTO flowerDTO = new FlowerDTO(nameFlowerMapper, countryFlowerMapper);
 //        flowerDTO.setNameFlower(flowerEntity.getNameFlower());
 //        flowerDTO.setCountryFlower(flowerEntity.getCountryFlower());
-        flowerDTO.setTypeFlower(flowerDTO.isFlowerDTO()? "Flower from UE" : "isn't from UE");
+        flowerDTO.setTypeFlower(flowerDTO.isFlowerDTOfromUE()? "Flower from UE" : "isn't from UE");
         return flowerDTO;
     }
 //    public FlowerEntity toEntity ( FlowerDTO flowerDTO){
