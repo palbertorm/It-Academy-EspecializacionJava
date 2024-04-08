@@ -7,11 +7,13 @@ import barcelonactiva.PauloAlberto.model.repository.RepositoryGame;
 import barcelonactiva.PauloAlberto.model.repository.RepositoryPlayer;
 import barcelonactiva.PauloAlberto.model.services.intefaces.GameService;
 import barcelonactiva.PauloAlberto.model.services.intefaces.PlayerService;
+import barcelonactiva.PauloAlberto.model.utils.GameConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 public class ServicesGame implements GameService {
     @Autowired
@@ -28,7 +30,7 @@ public class ServicesGame implements GameService {
         player.addGame(newGame);
         repositoryGame.save(newGame);
         // devolver dto
-        return null;
+        return GameConverter.entityToDTO(newGame);
     }
     private void rollDice (Game game) {
         Random random = new Random();
@@ -48,7 +50,7 @@ public class ServicesGame implements GameService {
             throw new IllegalStateException("No games found");
         }
         //  retornar game dto
-        return null;
+        return games.stream().map(GameConverter::entityToDTO).collect(Collectors.toList());
     }
 
     @Transactional
@@ -62,6 +64,7 @@ public class ServicesGame implements GameService {
         games.clear();
         repositoryGame.deleteByPlayer_id(player.getPlayerId());
     }
+
 
 
 

@@ -6,7 +6,8 @@ import java.util.List;
 
 public interface PlayerService {
     PlayerDTO addPlayer(PlayerDTO player);
-    PlayerDTO getOne(PlayerDTO player);
+    PlayerDTO getOne(long playerId);
     List<PlayerDTO> getAllplayers();
     PlayerDTO updatePlayer(long playerId, PlayerDTO newPlayerDTO);
+    void deletePlayer(long id);
 }
